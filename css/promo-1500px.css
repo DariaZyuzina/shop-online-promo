@@ -1,0 +1,135 @@
+@media (max-width: 1500px) {
+    .promo__list {
+        gap: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: minmax(150px, 314px) repeat(4, minmax(150px, 217px)) minmax(150px, 418px);
+    }
+
+    .promo__item_01 {
+        grid-column: 1 / 5;
+        border-radius: 16px;
+    }
+
+    .promo__link_01 {
+        padding: 80px 80px 36px;
+    }
+
+    .promo__text_01 {
+        font-size: 40px;
+        width: 50%;
+    }
+
+    .promo__time-event {
+        font-size: 20px;
+    }
+
+    .promo__time-event span {
+        font-size: 40px;
+    }
+
+    .promo__link_02 {
+        padding: 20px 9px;
+    }
+
+    .promo__text_02 {
+        font-size: 24px;
+    }
+
+    .promo__text_02 span {
+        font-size: 30px;
+    }
+
+    .promo__link_03 {
+        padding: 58px 9px 0;
+    }
+
+    .promo__link_sale_03:after {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .promo__text_03 {
+        font-size: 24px;
+    }
+
+    .promo__link_sale_04:after {
+        top: 10px;
+        left: 10px;
+    }
+
+    .promo__link_05 {
+        padding: 22px;
+    }
+
+    .promo__text_05 {
+        font-size: 30px;
+        padding: 29px 25px;
+    }
+
+    .promo__text_05 span {
+        font-size: 40px;
+    }
+
+    .promo__item_06 {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+
+    .promo__link_06 {
+        padding: 20px;
+    }
+
+    .promo__text_06 {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .promo__item_07 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+    }
+
+    .promo__link_sale_07:after {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .promo__link_08 {
+        padding: 39px 30px;
+    }
+
+    .promo__item_08 {
+        grid-column: 1 / 5;
+        grid-row: 6 / 7;
+    }
+
+    .promo__item_09 {
+        grid-column: 3 / 4;
+    }
+
+    .promo__link_sale_09:after {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .promo__item_10 {
+        grid-column: 4 / 5;
+    }
+
+    .promo__link_10 {
+        padding: 14px;
+    }
+
+    .promo__link_sale_10:after {
+        top: 10px;
+        left: 10px;
+    }
+
+    .promo__text_10 {
+        font-size: 20px;
+    }
+
+    .promo__item_11 {
+        grid-column: 4 / 5;
+    }
+}

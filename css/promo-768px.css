@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+    .promo__list {
+        gap: 20px;
+        grid-template-columns: repeat(2, minmax(50px, 140px)) minmax(150px, 220px) minmax(50px, 140px);
+        grid-template-rows: minmax(150px, 300px) repeat(8, minmax(50px, 60px)) minmax(150px, 337px);
+    }
+
+    .promo__link_sale:after {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .promo__item_01 {
+        margin-bottom: 20px;
+    }
+
+    .promo__link_01{
+        padding: 64px 80px 30px ;
+    }
+
+    .promo__text_01 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .promo__text-event {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .promo__time-event {
+        font-size: 16px;
+    }
+    
+    .promo__time-event span {
+        font-size: 30px;
+    }
+
+    .promo__link_02 {
+        padding: 15px 10px;
+    }
+
+    .promo__item_02 {
+        grid-row: 2 / 4;
+    }
+
+    .promo__text_02 {
+        font-size: 20px;
+    }
+
+    .promo__text_02 span {
+        font-size: 26px;
+    }
+
+    .promo__item_03 {
+        grid-row: 2 / 4;
+    }
+
+    .promo__link_03 {
+        padding: 15px 5px 0;
+    }
+
+    .promo__text_03 {
+        font-size: 16px;
+    }
+
+    .promo__item_04 {
+        grid-row: 4 / 6;
+    }
+
+    .promo__link_05 {
+        padding: 10px;
+    }
+
+    .promo__item_05 {
+        grid-row: 2 / 7;
+    }
+
+    .promo__text_05 {
+        font-size: 16px;
+        padding: 16px 25px;
+        white-space: normal;
+        border-radius: 12px;
+    }
+
+    .promo__text_05 span {
+        font-size: 26px;
+    }
+
+    .promo__item_06 {
+        grid-row: 6 / 8;
+    }
+
+    .promo__text_06 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .promo__item_07 {
+        grid-row: 8 / 10;
+    }
+
+    .promo__link_08 {
+        padding: 26px;
+    }
+
+    .promo__item_08 {
+        grid-row: 10 / 11;
+    }
+
+    .promo__text_08 {
+        font-size: 20px;
+        padding: 22px 33px;
+    }
+
+    .promo__item_09 {
+        grid-row: 7 / 10;
+        background-position: top;
+    }
+
+    .promo__item_10 {
+        grid-row: 7 / 9;
+    }
+
+    .promo__text_10{
+        font-size: 16px;
+    }
+
+    .promo__item_11 {
+        grid-row: 9 / 10;
+    }
+}

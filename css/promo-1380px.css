@@ -1,0 +1,16 @@
+@media (max-width: 1380px) {
+    .promo__list {
+        gap: 24px;
+    }
+
+    .promo__item_01 {
+        margin-bottom: -2px;
+    }
+
+    .promo__text_08 {
+        font-size: 30px;
+        padding: 23px 47px;
+        border-radius: 16px;
+    }
+}
+

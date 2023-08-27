@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>Shop Online</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="logo" href="#">Shop<span>Online</span></a>
+            <button class="menu__btn" type="button">Меню</button>
+
+            <form class="search">
+                <input class="search__input" type="search" name="text" placeholder="Я ищу...">
+                <button class="search__btn" type="submit"><img class="search__img" src="img/search.svg" alt="лупа"></button>
+            </form>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            <svg class="navigation__icon navigation__icon_profil" width="26" height="26" viewBox="0 0 26 26" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 12C15.315 12 18 9.315 18 6C18 2.685 15.315 0 12 0C8.685 0 6 2.685 6 6C6 9.315 8.685 12 12 12ZM12 15C7.995 15 0 17.01 0 21V24H24V21C24 17.01 16.005 15 12 15Z"
+                                    fill="#2D2D2D" />
+                            </svg>
+                            <span class="navigation__name">Профиль</span></a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link navigation__link__cart_count" href="#">
+                            <svg class="navigation__icon navigation__icon_cart" width="33" height="32" viewBox="0 0 33 32" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.5 24C7.85 24 6.515 25.35 6.515 27C6.515 28.65 7.85 30 9.5 30C11.15 30 12.5 28.65 12.5 27C12.5 25.35 11.15 24 9.5 24ZM0.5 0V3H3.5L8.9 14.385L6.875 18.06C6.635 18.48 6.5 18.975 6.5 19.5C6.5 21.15 7.85 22.5 9.5 22.5H27.5V19.5H10.13C9.92 19.5 9.755 19.335 9.755 19.125L9.8 18.945L11.15 16.5H22.325C23.45 16.5 24.44 15.885 24.95 14.955L30.32 5.22C30.44 5.01 30.5 4.755 30.5 4.5C30.5 3.675 29.825 3 29 3H6.815L5.405 0H0.5ZM24.5 24C22.85 24 21.515 25.35 21.515 27C21.515 28.65 22.85 30 24.5 30C26.15 30 27.5 28.65 27.5 27C27.5 25.35 26.15 24 24.5 24Z"
+                                    fill="#2D2D2D" />
+                            </svg>
+                            <span class="navigation__name">Корзина</span>
+                            <span class="count">2</span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">
+                            <svg class="navigation__icon navigation__icon_favorite" width="36" height="36" viewBox="0 0 36 36" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z"
+                                    fill="#2D2D2D" />
+                            </svg>
+                            <span class="navigation__name">Избранное</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <article class="promo">
+            <div class="container promo__container">
+                <ul class="promo__list">
+                    <li class="promo__item promo__item_01">
+                        <a href="#" class="promo__link promo__link_01">
+                            <p class="promo__text_01">-50% на все ноутбуки</p>
+                            <div class="promo__block-event">
+                                <p class="promo__text-event">До конца акции:</p>
+                                <p class="promo__time-event"><span>3</span> дня <span>8</span> часов <span>43</span> минуты</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_02">
+                        <a href="#" class="promo__link promo__link_02">
+                            <p class="promo__text_02"><span>Книга</span> – лучший подарок</p>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_03">
+                        <a href="#" class="promo__link promo__link_03 promo__link_sale promo__link_sale_03">
+                            <p class="promo__text_03">Время скидок!</p>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_04">
+                        <a href="#" class="promo__link promo__link_04 promo__link_sale promo__link_sale_04">
+
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_05">
+                        <a href="#" class="promo__link promo__link_05">
+                            <p class="promo__text_05">Вторая пара кроссовок 
+                                <span>в подарок!</span></p>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_06">
+                        <a href="#" class="promo__link promo__link_06">
+                            <p class="promo__text_06">Идеи новогодних подарков
+                            </p>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_07">
+                        <a href="#" class="promo__link promo__link_06 promo__link_sale promo__link_sale_07">
+                            <p class="promo__text_06">Выгодно в декабре!</p>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_08">
+                        <a href="#" class="promo__link promo__link_08">
+                            <p class="promo__text promo__text_08">Новогодние украшения</p>
+                        </a>
+                        
+                    </li>
+                    <li class="promo__item promo__item_09">
+                        <a href="#" class="promo__link promo__link_09 promo__link_sale promo__link_sale_09">
+
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_10">
+                        <a href="#" class="promo__link promo__link_10 promo__link_sale promo__link_sale_10">
+                            <p class="promo__text promo__text_10">На бытовую химию</p>
+                        </a>
+                    </li>
+                    <li class="promo__item promo__item_11">
+                        <a href="#" class="promo__link">
+                            <img class="promo__img_11" src="img/promo/balls.jpeg" alt="новогодние игрушки">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
