@@ -111,3 +111,15 @@
         grid-row: 8 / 9;
     }
 }
+
+/* ------------------------------------------------------- */
+
+@media (max-width: 684px) {
+    .promo__text_category_book {
+        font-size: 15px;
+    }
+
+    .promo__text_category_book span {
+        font-size: 18px;
+    }
+}
