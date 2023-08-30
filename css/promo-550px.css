@@ -1,167 +1,140 @@
 @media (max-width: 550px) {
-    .promo__list {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: minmax(100px, 340px) 130px 118px 280px repeat(2, 118px) repeat(2, 130px) 123px;
-    }
-
-    .promo__item {
-        border-radius: 8px;
-    }
-
-    .promo__item_01 {
-        grid-column: 1 / 3;
-        margin-bottom: 0;
-    }
-
-    .promo__link_01{
-        padding: 50px 29px 30px ;
-    }
-
-    .promo__text_01 {
-        font-size: 22px;
-    }
-
-    .promo__text-event {
-        font-size: 8px;
-        margin-bottom: 6px;
-    }
-
-    .promo__time-event {
-        font-size: 12px;
+    .promo__banner {
+        margin-bottom: 20px;
     }
     
-    .promo__time-event span {
-        font-size: 20px;
+    .promo__list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px 118px 280px repeat(2, 118px) repeat(2, 130px) 123px;
     }
 
-    .promo__link_02 {
-        padding: 10px;
-    }
-
-    .promo__item_02 {
-        grid-row: 2 / 3;
-    }
-
-    .promo__text_02 {
-        font-size: 12px;
-        width: 65px;
-    }
-
-    .promo__text_02 span {
-        font-size: 16px;
-    }
-
-    .promo__item_03 {
-        grid-row: 2 / 3;
-    }
-
-    .promo__link_03 {
-        padding: 28px 10px 0;
-    }
-
-    .promo__link_sale_03:after {
+    .promo__link_sale_15-bottom:after {
         bottom: 5px;
         right: 5px;
     }
 
-    .promo__text_03 {
-        font-size: 12px;
-    }
-
-    .promo__item_04 {
-        grid-row: 3 / 4;
-    }
-
-    .promo__link_sale_04:after {
+    .promo__link_sale_25-top:after {
         top: 5px;
         left: 5px;
     }
 
-    .promo__item_05 {
-        grid-column: 1 / 3;
-        grid-row: 4 / 5;
+    .promo__link_sale_25-bottom:after {
+        bottom: 5px;
+        right: 5px;
     }
 
-    .promo__text_05 {
+    .promo__link_sale_40-top:after {
+        top: 5px;
+        left: 5px;
+    }
+
+    .promo__link_sale_55-bottom:after {
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .promo__link_title_bottom {
+        padding: 16px 10px;
+    }
+
+    .promo__text_title {
+        font-size: 12px;
+    }
+
+/* ----------------------------------------- */
+
+    .promo__link_category_book {
+        padding: 10px;
+    }
+
+    .promo__item_category_book {
+        grid-row: 1 / 2;
+    }
+
+    .promo__text_category_book {
+        font-size: 12px;
+        width: 65px;
+    }
+
+    .promo__text_category_book span {
+        font-size: 16px;
+    }
+
+    .promo__item_category_discont {
+        grid-row: 1 / 2;
+    }
+
+    .promo__link_category_discont {
+        padding: 28px 10px 0;
+    }
+
+    .promo__text_category_discont {
+        font-size: 12px;
+    }
+
+    .promo__item_category_shoes {
+        grid-row: 2 / 3;
+    }
+
+    .promo__item_category_sneakers {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .promo__text_category_sneakers {
         font-size: 12px;
         padding: 9px 20px;
         border-radius: 8px;
     }
 
-    .promo__text_05 span {
+    .promo__text_category_sneakers span {
         font-size: 16px;
     }
 
-    .promo__item_06 {
+    .promo__item_category_present {
+        grid-row: 4 / 5;
+    }
+
+    .promo__item_category_month-discont {
         grid-row: 5 / 6;
     }
 
-    .promo__link_06 {
-        padding: 16px 10px;
-    }
-
-    .promo__text_06 {
-        font-size: 12px;
-    }
-
-    .promo__item_07 {
-        grid-row: 6 / 7;
-    }
-
-    .promo__link_sale_07:after {
-        bottom: 5px;
-        right: 5px;
-    }
-
-    .promo__link_08 {
+    .promo__link_category_acсess {
         justify-content: center;
-    }
-
-    .promo__link_08 {
         padding: 10px 15px;
     }
 
-    .promo__item_08 {
-        grid-row: 9 / 10;
+    .promo__item_category_acсess {
+        grid-row: 8 / 9;
         grid-column: 1 / 3;
     }
 
-    .promo__text_08 {
+    .promo__text_category_access {
         font-size: 12px;
         padding: 7px 41px;
         border-radius: 4px;
     }
 
-    .promo__item_09 {
+    .promo__item_category_dress {
         grid-column: 1 / 2;
-        grid-row: 7 / 9;
+        grid-row: 6 / 8;
     }
 
-    .promo__link_sale_09:after {
-        bottom: 5px;
-        right: 5px;
-    }
-
-    .promo__item_10 {
+    .promo__item_category_kitchen {
         grid-column: 2 / 3;
-        grid-row: 7 / 8;
+        grid-row: 6 / 7;
     }
 
-    .promo__link_10 {
+    .promo__link_category_kitchen {
         padding: 10px 9px;
     }
 
-    .promo__link_sale_10:after {
-        top: 5px;
-        left: 5px;
-    }
-
-    .promo__text_10{
+    .promo__text_category_kitchen {
         font-size: 12px;
     }
 
-    .promo__item_11 {
+    .promo__item_category_christmas {
         grid-column: 2 / 3;
-        grid-row: 8 / 9;
+        grid-row: 7 / 8;
     }
 }
